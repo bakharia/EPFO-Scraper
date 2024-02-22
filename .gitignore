@@ -1,0 +1,19 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore all files in the data directory
+data/*
+!data/Payment Details.xlsx
+!data/KDMAL0094547000.xlsx
+
+# Ignore all files with the .crdownload extension
+*.crdownload
+
+# Ingore all files with the .Identifier extesnion
+*.Identifier
+
+# Ignore .env files
+*.env
+
+# Other files
+poetry.lock
